@@ -1,0 +1,263 @@
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+/* ICONES  */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* ICONES  */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /*width: 2679px;*/
+    /*height: 1746px;*/
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #3E708E, #64969B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+main{
+    /*width: 1440px;*/
+    /*height: 1024px;*/
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #fff;*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemFundo{
+    width: 790px;
+    height: 851px;
+    background-color: chocolate;
+    z-index: 5;
+}
+
+section{
+    width: 787px;
+    height: 1024px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+
+section > p{
+    color: #496F74;
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 60px;
+}
+
+aside{
+    width: 653px;
+    height: 1024px;
+    background-image: linear-gradient(to bottom right, #517879, #1E3E57);
+}
+
+.card{
+    width: 400px;
+    height: 730px;
+    margin-top: 200px;
+}
+
+.card p{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card > .titulo{
+    margin-bottom: 60px;
+}
+
+.textfield{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 200;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #CCC;
+}
+
+input::placeholder{
+    color: #CCC;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.textfield > .senha{
+    font-size: 12px;
+    color: #CCC;
+    font-weight: 200;
+}
+select{
+    width: 400px;
+    height: 40px;
+    display: block;
+    border: 1px solid #CCC;
+    outline: none;
+}
+
+.local{
+    color: #c4c4c4;
+   
+}
+
+.botao{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    background-color: #27485D;
+    border: 1 px solid #284A5E;
+}
+
+.card .login{
+    font-size: 16px;
+    font-weight: 200;
+    color: #c4c4c4;
+    text-align: center;
+    
+}
+
+.card .link{
+    color: #476D73;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+ }
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 90px;
+}
+
+li{
+    margin-right: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.mensagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensagem > p{
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 300px;
+}
+.mensagem .msg{
+    text-shadow: 3px 3px 1px #27485D;
+}
+
+.autor{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-bottom: 90px;
+    text-shadow: 3px 3px 1px #27485D;
+}
+
+.senhaIcon{
+    background-image:  url("assets/visibility_lock_FILL0_wght400_GRAD0_opsz24.svg"); 
+    background-repeat: no-repeat, repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px; /* espaço para o ícone */
+}
+/*
+::placeholder {
+    content: "";
+    width: 5px;
+    height: 7px;
+    display: flex;
+    background-color: green;
+    visibility: visible;
+}
+*/
+
+.phone{
+    background-image: url("assets/expand_more_FILL0_wght400_GRAD0_opsz24.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: calc(5% - 10px) center;
+    padding-left: 30px; /* espaço para o ícone */
+}
+
+
+
+  /* max-width  */
+@media screen and (max-width: 800px) {
+    aside{
+        display: none;
+    }
+    section{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ }
+
+/* min-width 
+@media screen and (min-width: 800px) {
+	p{
+        color: yellowgreen;
+    }
+    aside{
+        display: none;
+    }
+  
+}
+*/
