@@ -13,6 +13,6 @@ O clone da página "Kreativ_Site" é uma demonstração de como criar uma págin
 - Integração de animações e efeitos visuais.
 
 ## Implantar
-O projeto está disponível em https://kreativ_site-murex.vercel.app/ no Vercel para visualização.
+O projeto está disponível em https://vercel.com/elton-n/kreativ-site no Vercel para visualização.
 
 Seja bem-vindo ao Clone-Kreativ_Site, e sinta-se à vontade para contribuir ou entrar em contato conosco!
