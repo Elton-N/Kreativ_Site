@@ -12,3 +12,7 @@ O clone da página "Kreativ_Site" é uma demonstração de como criar uma págin
 - Demonstração de técnicas de desenvolvimento web responsivo.
 - Integração de animações e efeitos visuais.
 
+## Implantar
+O projeto está disponível em  no Vercel para visualização.
+
+Seja bem-vindo ao Clone-Kreativ_Site, e sinta-se à vontade para contribuir ou entrar em contato conosco!
